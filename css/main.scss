@@ -1,0 +1,106 @@
+---
+---
+
+/* CSS Styles are defined below */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blogheader {
+    text-align: center;
+    margin:10px;
+    padding:0;
+}
+
+.content {
+    display: inline-flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    margin:10px 0px;
+    padding:0;
+}
+
+.contentboxes {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width:100%;
+    margin: 10px;
+    // background-color: red;
+    color: black;
+}
+
+.leftcontentboxes {
+    display: flex;
+    flex-flow: wrap;
+    margin: 30px;
+    background-color: #f7f7f7;
+    width: 40%;
+}
+
+.rightcontentboxes {
+    display:flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    margin: 30px;
+    background-color: #f7f7f7;
+}
+
+.contentbox1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 30px;
+    background-color: #f7f7f7;
+}
+
+.contentbox1text {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+}
+
+.contentbox1footer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: right;
+}
+
+
+.smallerimage {
+    width: 200px;
+    height: auto;
+}
+
+.contentbox2 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin: 30px;
+    background-color: #f7f7f7;
+}
+
+.contentbox2text {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+}
+
+
+// .contentbox2 {
+//     margin: 30px;
+//     height: 100px;
+//     background-color: #f7f7f7;
+// }
+
+// .contentbox3 {
+//     margin: 30px;
+//     background-color: #f7f7f7;
+// }
+
+// .contentbox4 {
+//     margin: 30px;
+//     background-color: #f7f7f7;
+// }
